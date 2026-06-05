@@ -1,0 +1,14 @@
+---
+description: "Python Redis Cache — async Redis client module for uv services"
+summary: >
+  Generates a cache package with an async Redis client (redis.asyncio).
+  Consumed as a library by Python service archetypes.
+authors: ["Jimmie Fulton <jimmie@ybor.ai>"]
+tags: ["library", "python", "cache", "redis"]
+
+requires:
+  archetect: "3.0.0"
+
+templating:
+  trim_blocks: true
+  lstrip_blocks: true
